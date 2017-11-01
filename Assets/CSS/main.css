@@ -1,5 +1,4 @@
-body
-{
+body {
 	width:100%;
 	margin: 0px;
 	height: 90%;
@@ -8,7 +7,8 @@ body
 nav {
 	width:100%;
 	height:10%;
-	background-color: black;
+	background: repeating-linear-gradient(to right,#101015, #101015 30.1%, #22222A 30.1%, #22222A 100%); 
+	
 }
 
 #sidebar {
@@ -20,8 +20,15 @@ nav {
 
 #main {
 	height:100%;
-	background-color: red;
+	background-color: #22222A;
 	width: 95%;
+	float: right;
+}
+
+#maintext
+{
+	
+	width: 30%;
 	float: right;
 }
 	
@@ -37,16 +44,17 @@ nav a{
 	text-decoration-style: solid;
 	text-rendering: optimizeLegibility;
 	font-style: normal;
+	position: relative;
 }
 
 .navlink{
-	float: right;
+	text-align:right;
 	font-family: Theinhardt,sans-serif;
 }
 
 .pagetitle{
-	float: left;
-	
+	text-align: left;
+	font-family: Theinhardt,sans-serif;
 }
 
 
