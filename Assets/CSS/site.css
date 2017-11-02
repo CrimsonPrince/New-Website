@@ -1,0 +1,224 @@
+
+nav {
+	text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+	background-color: black;
+}
+
+#spanNav {
+	float:left;
+}
+
+nav h1 {
+	float:left;
+	color: white;
+}
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:  #0000ff;
+}
+.clear
+{
+	clear: both;
+}
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+#main {
+	position: relative;
+	width: 100%;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 10px;
+	background-image: url("../Images/Masterbackorigin.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+#main p {
+	text-align:justify;
+	padding-top: 2%;
+	padding-right:10%;
+	float: right;
+	max-width: 25%;
+}
+
+ .textimg {
+	display: inline-block;
+	text-align: center;
+	width:21%;
+	height:20%;
+	margin: 1%;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+ }
+ .textimg img {
+	 border-radius: 50%;
+	 padding-bottom: 50px;
+}
+
+#aboutcontent h1 {
+	text-align: center;
+	padding-top: 2%;
+	font-family:"Courier New", Courier, monospace;
+}
+ 
+
+}
+/* Gallery */
+ #main3 {
+	position: relative;
+	width: 100%;
+	min-height: 50em;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 10px;
+	background-image: url("../Images/galleryback.jpg"); /*Purposely left here */
+	background-size: cover;
+	background-repeat: no-repeat;
+ }
+
+
+
+#content {
+	min-height: 25em;
+	width: 100%;
+	
+}
+#content2 img {
+	width: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	border: 1px black solid;
+}
+#content2 #p1 {
+	float:right;
+	width:40%;
+	padding: 2%;
+	margin: 2%;
+}
+
+#content2 #p2 {
+	float:left;
+	width:40%;
+	padding: 2%;
+	margin: 2%;
+}
+/* Experiment page */
+ #main4 {
+	 position: relative;
+	width: 100%;
+	min-height: 50em;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 10px;
+ }
+ 
+ #contentexperiment img
+{
+	width:35%;
+	height: 20%;
+}
+
+#textexp
+{
+	width:45%;
+	height: 20%;
+	float:right;
+	margin: 5%;
+	font-size: 14px;
+}
+
+#textexp2
+{
+	width:45%;
+	height: 20%;
+	float:left;
+	margin: 5%;
+	font-size: 14px;
+}
+
+#mainimage{
+	margin-top: 20%;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	width: 100%;
+}
+
+#mainimage img{
+	margin-left: 8%;
+}
+/*
+ #leftimg {
+	 margin:7%;
+}
+
+#centerimg {
+	margin:7%;
+	
+}
+
+#rightimg {
+	margin:7%;
+} */
+
+
+#content2 {
+	background-color:#FAFAFA;
+	min-height: 14em;
+}
+
+
+
+footer {
+	min-height: 100px;
+	background-color:#282828;
+	position: absolute;
+	width:100%;
+	text-align: right;
+	 color:white;
+}
+
+footer h2 {
+	color:white;
+	margin-left: 10%;
+	font-family: "Courier New", Courier, monospace;
+}
+
+ 
+ footer a {
+	 text-align: right;
+	 color:white;
+ }
+ 
+
+
+#bcontainer
+{
+	margin: auto;
+	min-height: 100px;
+	width:70%;
+}
+

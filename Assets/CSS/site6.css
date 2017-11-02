@@ -1,0 +1,100 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main {
+	position: relative;
+	width: 95%;
+	min-height: 600px;
+	background-color: #EEEEEE;
+	margin: auto;
+	border: 1px black solid;
+	margin-bottom: 10px;
+}
+
+header div {
+	height: 180px;
+	background-image: url("../Images/Header.jpg");
+	background-color: #338aff;
+}
+
+header h1 {
+	color:  #0000ff;
+	font-size: 50px;
+	font-family: serif;
+	text-align: center;
+	margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #0000ff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:  #0000ff;
+}
+
+#Text
+{
+	font-size: 20px;
+}
+
+
+footer {
+	text-align: center;
+	background-color:  #0000ff;
+	padding: 5px;
+	color: white;
+}
+
+iframe {
+	float: left;
+	margin: 10px;
+	
+}
+
+
+.PeopleL, .PeopleR {
+	display: inline-block;
+	border: black solid 1px;
+	width: 100%;
+}
+
+.PeopleL {
+	color:red;
+	background-color:white;
+}
+.PeopleR {
+	background-color: #338aff;
+	
+}
+.PeopleL img {
+	width:10%;
+	height:10%;
+	float:left;
+}
+
+
+.PeopleR img {
+	width:10%;
+	height:10%;
+	float:right;
+}

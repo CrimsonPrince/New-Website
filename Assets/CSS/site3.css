@@ -1,0 +1,128 @@
+
+nav {
+	text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+	background-color: black;
+}
+
+#spanNav {
+	float:left;
+}
+
+nav h1 {
+	float:left;
+	color: white;
+}
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:  #0000ff;
+}
+
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main {
+	position: relative;
+	width: 100%;
+	min-height: 50em;
+	background-color: white;
+	margin: auto;
+	border: 1px black solid;
+	margin-bottom: 10px;
+}
+
+#content {
+	min-height: 50em;
+	
+}
+
+#aboutcontent h1 {
+	text-align: center;
+	padding-top: 3%;
+}
+ .textimg {
+	 padding-top: 80px;
+	display: inline-block;
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+ }
+ .textimg img {
+	 border-radius: 50%;
+	 padding-bottom: 50px;
+}
+ 
+#leftimg {
+	float:left;
+	margin-left:10%;
+	margin-top: 30%;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+#centerimg {
+	margin-left: 15%;
+	margin-top: 30%;
+	margin-right: 15%;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+#rightimg {
+	float:right;
+	margin-right:15%;
+	margin-top: 30%;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+#content2 {
+	background-color:#FAFAFA;
+	min-height: 14em;
+}
+
+
+
+footer {
+	min-height: 100px;
+	background-color:#282828
+}
+
+footer h2 {
+	color:white;
+}
+ 
+ footer li {
+	 text-align: center;
+ }
+ 
+ footer li a {
+text-align: center;
+color:white;	 
+ }
+
+#bcontainer
+{
+	margin: auto;
+	min-height: 150px;
+	width:70%;
+}
