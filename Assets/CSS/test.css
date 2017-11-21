@@ -7,33 +7,34 @@ body {
 
 #main {
 	height:100%;
-	width: 100%;
+	width: 95%;
+}
+#main b {
+	text-align: center;
+}
+
+	
+
+#SideNav {
+	background-color: #101015;
+	width: 5%;
+	height: 100%;
+	float: left;
+	margin: 0%;
 }
 
 section {
 	font-size: 4rem;
 	color: white;
-	text-align: center;
 	padding-top: 15%;
+
 }
 
-#links {
-	width: 100%;
-	padding-top: 5%;
-	display: flex;
-	justify-content: center;
-}
-	
-#links a {
-	color: white;
-	background-color: blue;
-	padding-right: 5%;
-}
 
 nav  {
+	padding-top: 5%;
 	display: flex;
 	justify-content: center;
-	padding-top: 5%;
 }
 
 nav a {
@@ -42,6 +43,7 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	margin:5%;
 }
 
 nav a:hover {
@@ -51,6 +53,3 @@ nav a:hover {
 {
 	clear: both;
 }
-
-
-
