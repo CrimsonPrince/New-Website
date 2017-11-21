@@ -1,0 +1,23 @@
+body {
+	width:100%;
+	margin: 0px;
+	height: 90%;
+	background-color: #101015;
+}
+
+
+#main {
+	height:100%;
+	width: 100%;
+	background-color: #101015;
+}
+
+section {
+	font-size: 2rem;
+	color: white;
+}
+
+
+
+
+
