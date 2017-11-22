@@ -68,7 +68,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color:  #0000ff;
+    opacity: 50%;
 }
 .clear
 {
