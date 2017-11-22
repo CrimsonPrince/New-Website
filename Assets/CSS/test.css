@@ -29,6 +29,19 @@ body {
 	margin: 0%;
 }
 
+#SideNav a {
+	z-index:20;
+	position:fixed;
+	float:left;
+	height: 10%;
+	width:40%;
+}
+#SideNav a img{
+	z-index:20;
+	float:left;
+	position:fixed;
+}
+
 section {
 	font-size: 4rem;
 	color: white;
@@ -51,6 +64,7 @@ nav a {
     padding: 14px 16px;
     text-decoration: none;
 	margin:5%;
+	 z-index: 11;
 }
 
 nav a:hover {
@@ -68,5 +82,9 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -9999;
+  z-index: 10;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
