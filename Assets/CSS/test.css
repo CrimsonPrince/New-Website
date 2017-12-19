@@ -13,7 +13,7 @@ body {
 }
 #main {
 	height:100%;
-	width: 95%;
+	width: 100%;
 }
 
 #snow {
@@ -28,7 +28,7 @@ body {
 
 #SideNav {
 	background-color: #101015;
-	width: 5%;
+	width: 8%;
 	height: 100%;
 	float: left;
 	margin: 0%;
